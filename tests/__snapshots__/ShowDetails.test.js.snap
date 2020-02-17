@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ShowDetails component check initial markup of the component 1`] = `
+<div
+  className="rtl-show"
+>
+  <img
+    src="url"
+  />
+  <h1>
+    name
+  </h1>
+  <p
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "summary",
+      }
+    }
+  />
+  <h2>
+    Episodes
+  </h2>
+  <div
+    className="rtl-show-season"
+  >
+    <h2>
+      Season 
+      1
+    </h2>
+    <ul>
+      <li>
+        <img
+          src="url1"
+        />
+        <a
+          onClick={[Function]}
+          style={Object {}}
+        >
+          name1
+        </a>
+      </li>
+      <li>
+        <img
+          src="url2"
+        />
+        <a
+          onClick={[Function]}
+          style={Object {}}
+        >
+          name2
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

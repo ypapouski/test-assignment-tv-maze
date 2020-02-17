@@ -1,0 +1,38 @@
+.rtl-show {
+  img {
+    max-width: 100%;
+  }
+
+  .rtl-show-season {
+    display: inline-block;
+    min-width: 225px;
+  }
+
+  @media (min-width: 680px) {
+    .rtl-show-season {
+      ul {
+        padding-inline-start: 15px;
+      }
+      li {
+        position: relative;
+        list-style-type: none;
+      }
+      img {
+        width: 25%;
+      }
+      a {
+        position: absolute;
+        margin-left: 10px;
+        top: 25%;
+      }
+    }
+  }
+
+  @media (min-width: 0px) and (max-width: 680px) {
+    .rtl-show-season {
+      img {
+        display: none;
+      }
+    }
+  }
+}

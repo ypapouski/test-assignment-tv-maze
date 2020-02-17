@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ShowDetails component check initial markup of the component 1`] = `
+<div
+  className="rtl-episode"
+>
+  <img
+    src="url1"
+  />
+  <h1>
+    name1
+  </h1>
+  <p
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "summary",
+      }
+    }
+  />
+</div>
+`;
